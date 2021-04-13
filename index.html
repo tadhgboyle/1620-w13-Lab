@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>lab - week 13</title>
 </head>
 <body>
     
     <section>
 
-        <h1>Email sending form</h1>
+        <div>
 
-        <p><i>What is this?</i></p>
-        <p>An epic service to send yourself an email.</p>
-        <p><i>How do I use it?</i></p>
-        <p>Fill out the boxes below and then click "Send"!</p>
+            <h1>Email sending form</h1>
+            
+            <p class="q"><i><b>What is this?</b></i></p>
+            <p>An epic service to send yourself an email.</p>
+            <p class="q"><i><b>How do I use it?</b></i></p>
+            <p>Fill out the boxes below and then click "Send"!</p>
 
-        <form method="POST" action="https://simple-form.com/<your email here>">
-            <input type="text" name="name" placeholder="Your name" />
-            <input type="email" name="replyTo" placeholder="Your email" />
-            <textarea name="message" placeholder="Your message"></textarea>
-            <input type="submit" value="Send" />
-        </form>
+            <hr>
+            
+            <form method="POST" action="https://simple-form.com/<your email here>">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" placeholder="Your name" />
+                <br>
+
+                <label for="replyTo">Your Email</label>
+                <input type="email" name="replyTo" placeholder="Your email" />
+                <br>
+
+                <label for="message">Your message</label>
+                <textarea name="message" placeholder="Your message"></textarea>
+                <br>
+
+                <input type="submit" value="Send" />
+            </form>
+        </div>
 
     </section>
 

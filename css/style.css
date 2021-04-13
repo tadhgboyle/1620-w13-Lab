@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root {
+    --main-background: #e0def4;
+    --main-text: #26233a;
+}
+
+/* Zeroing */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+/* General text rules */
+
+h1, p, a, li, button, input::placeholder, label {
+    color: var(--main-text);
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 500px;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.div {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.q {
+    padding-top: 10px;
+}
+
+hr {
+    margin: 10px;
+}
+
+form {
+    position: relative;
+}
+
+input, textarea {
+    margin-top: 40px;
+    width: 38%;
+    border: none;
+    padding: 20px;
+}
